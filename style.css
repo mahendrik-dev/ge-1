@@ -28,3 +28,11 @@ canvas{display:block;width:100%;height:auto;margin-top:.6rem;border-radius:.75re
 #mt{position:sticky;top:0;z-index:2}#mt .meters{position:static}
 .ctl{display:flex;gap:.6rem}.ctl button{width:auto;text-align:center;touch-action:none;user-select:none;-webkit-user-select:none}
 .ctl #bl,.ctl #br{flex:0 0 4.5rem}.ctl #sk{flex:1;touch-action:auto}
+[hidden]{display:none!important}
+#stage{position:relative;margin-top:.6rem}#stage canvas{margin-top:0;aspect-ratio:16/10;touch-action:none}
+#hud{position:absolute;inset:0;pointer-events:none;color:#fff;font-weight:700;text-shadow:0 1px 3px #000}
+#cp{position:absolute;top:.5rem;left:.5rem;display:flex;gap:.4rem;align-items:center;background:rgba(20,33,61,.8);padding:.25rem .6rem;border-radius:2rem;font-size:.85rem}
+#ar{display:inline-block;color:#f5b700;font-size:1.1rem}
+#st{position:absolute;top:.5rem;right:.5rem;background:rgba(20,33,61,.8);padding:.25rem .6rem;border-radius:2rem;color:#ffc400}
+#ts{position:absolute;left:.5rem;right:.5rem;bottom:.5rem;background:rgba(193,18,31,.92);padding:.5rem .75rem;border-radius:.5rem;font-size:.9rem}
+.ctl #bu,.ctl #bd{flex:0 0 4.5rem}
