@@ -1,0 +1,67 @@
+{"babak":[
+{"judul":"Masa SMP: pemilihan ketua OSIS","intro":"Kamu kelas 9. Minggu ini OSIS memilih ketua baru, dan semua orang punya pendapat."},
+{"judul":"Pemilih pertama","intro":"Dua tahun kemudian, usiamu 17 tahun dan kamu punya hak pilih di pilkada daerahmu. (Cerita ini hipotetis.)"},
+{"judul":"Warga dewasa","intro":"Bertahun-tahun kemudian. Pilihan-pilihan lamamu ikut membentuk lingkungan tempatmu tinggal."}],
+"keputusan":[
+{"id":1,"babak":1,"npc":"Dimas, calon ketua OSIS","teks":"\"Pilih aku ya! Nanti kutraktir bakso sepulang sekolah.\"","opsi":[
+{"t":"Terima traktiran dan janji memilihnya","e":{"H":-1,"R":-1},"f":"terima_traktiran","u":"Suara yang dibeli membuat pemilih tak lagi menilai gagasan."},
+{"t":"Tolak dengan sopan, pilih berdasarkan program","e":{"H":1,"R":1},"u":"Memilih karena gagasan menjaga kepercayaan pada pemilihan."},
+{"t":"Tolak dan laporkan ke pembina OSIS","e":{"H":2,"R":1,"P":-1},"u":"Melapor menegakkan aturan, tetapi hubungan dengan teman bisa renggang."}]},
+{"id":2,"babak":1,"npc":"Grup WhatsApp kelas","teks":"Beredar pesan: calon Rani katanya pernah dikeluarkan dari sekolah lamanya. Belum ada yang memeriksa kebenarannya.","opsi":[
+{"t":"Teruskan ke grup lain, kelihatannya penting","e":{"R":-2,"P":-1},"u":"Hoaks yang menyebar cepat dapat merusak nama baik seseorang."},
+{"t":"Abaikan saja","e":{"R":-1},"u":"Diam membuat hoaks tetap beredar tanpa bantahan."},
+{"t":"Tanyakan sumbernya dan klarifikasi dengan fakta","e":{"R":2,"P":1},"u":"Memeriksa sebelum membagikan adalah kebiasaan warga yang cerdas."}]},
+{"id":3,"babak":1,"npc":"Rahel, teman sekelas","teks":"Rahel, temanmu dari suku yang berbeda, diejek selama kampanye: \"Orang sepertimu tidak pantas jadi pemimpin.\"","opsi":[
+{"t":"Ikut tertawa agar tidak dijauhi","e":{"P":-2,"K":-1},"u":"Ikut merendahkan orang lain menggerus persatuan."},
+{"t":"Diam saja","e":{"P":-1},"u":"Diam membuat perundungan terasa wajar."},
+{"t":"Menegur: semua siswa punya hak yang sama","e":{"P":2,"K":1},"u":"Persatuan dan keadilan (sila 3 dan 5) dimulai dari hal kecil."}]},
+{"id":4,"babak":1,"npc":"Panitia OSIS","teks":"Calon pilihanmu kalah tipis. Beberapa teman menuduh panitia curang, tetapi belum ada bukti.","opsi":[
+{"t":"Ikut menuduh di media sosial","e":{"R":-2,"P":-1,"H":-1},"u":"Tuduhan tanpa bukti merusak kepercayaan pada proses."},
+{"t":"Terima hasilnya dan dukung ketua terpilih","e":{"P":2},"u":"Menerima hasil menjaga kebersamaan, meski kamu kecewa."},
+{"t":"Minta panitia menunjukkan rekap suara lewat jalur resmi","e":{"H":2,"R":1,"P":1},"u":"Keberatan lewat jalur resmi menguji proses tanpa memecah belah."}]},
+{"id":5,"babak":2,"npc":"Pak Bagas, tim sukses salah satu calon","teks":"\"Ini uang transport, Dik. Tidak wajib memilih, tapi ya... tahu sendiri.\"","opsi":[
+{"t":"Terima dan pilih calonnya","e":{"H":-2,"R":-2,"K":-1},"f":"terima_amplop","u":"Politik uang melanggar aturan dan membuat pemimpin berutang pada pemberi uang, bukan pada rakyat."},
+{"t":"Terima, tapi tetap memilih sesuai hati nurani","e":{"H":-1,"R":-1},"f":"terima_amplop","u":"Menerima uang tetap melanggar aturan, dan meninggalkan utang budi yang bisa ditagih."},
+{"t":"Tolak dan laporkan ke Bawaslu","e":{"H":2,"R":1,"K":1},"f":"tolak_amplop","u":"Menolak dan melapor menjaga pemilihan yang jujur dan adil."}]},
+{"id":6,"babak":2,"npc":"Dialog calon di balai desa","teks":"Menjelang pencoblosan ada dialog calon di balai desa. Di rumah, keluargamu sudah punya pilihan sendiri.","opsi":[
+{"t":"Datang, catat program tiap calon, lalu putuskan sendiri","e":{"R":2,"K":1},"u":"Pemilih yang mengenal program membuat pemimpin harus menepati janji."},
+{"t":"Ikut pilihan keluarga tanpa mencari tahu","e":{"R":-1},"u":"Memilih tanpa tahu program menyerahkan nasib daerah pada kebetulan."},
+{"t":"Pilih yang paling sering muncul di media sosial","e":{"R":-2,"K":-1},"u":"Popularitas bukan ukuran kemampuan memimpin."}]},
+{"id":7,"babak":2,"npc":"Pesan berantai","teks":"Beredar pesan yang menyerang agama dan suku salah satu calon.","opsi":[
+{"t":"Sebarkan supaya orang tahu","e":{"P":-3,"H":-1},"u":"Isu SARA memecah warga dan merusak persatuan."},
+{"t":"Diam saja","e":{"P":-1},"u":"Diam membiarkan kebencian menyebar."},
+{"t":"Lawan dengan fakta dan laporkan kontennya","e":{"P":2,"H":1},"u":"Menahan ujaran kebencian menjaga persatuan dalam perbedaan."}]},
+{"id":8,"babak":2,"npc":"Kakak tingkat","teks":"Temanmu mengajak demo menolak kebijakan daerah. Di kerumunan, ada yang mulai melempar batu.","opsi":[
+{"t":"Ikut melempar supaya suara didengar","e":{"H":-2,"P":-1,"R":-1},"u":"Kekerasan merusak pesan dan melanggar hukum."},
+{"t":"Menyampaikan pendapat dengan damai dan menjauh dari kericuhan","e":{"H":1,"R":1,"P":1},"u":"Menyampaikan pendapat dilindungi UUD 1945 selama dilakukan tertib."},
+{"t":"Tidak ikut demo, menyampaikan lewat audiensi dengan DPRD","e":{"H":1,"R":2},"u":"Jalur perwakilan membuat aspirasi masuk ke proses resmi."}]},
+{"id":9,"babak":2,"npc":"Tetangga","teks":"Hari pemilihan. Tetanggamu berbeda pilihan dan mulai sinis kepadamu.","opsi":[
+{"t":"Tidak memilih: \"sama saja semuanya\"","e":{"R":-1,"K":-1},"u":"Golput itu sah, tetapi suaramu tidak ikut menentukan arah daerah."},
+{"t":"Memilih, lalu tetap ramah pada tetangga","e":{"R":1,"P":2},"u":"Beda pilihan tidak harus memutus persaudaraan."},
+{"t":"Memilih, lalu menyindir tetangga yang kalah","e":{"P":-2},"u":"Sindiran memperlebar jarak antarwarga."}]},
+{"id":10,"babak":3,"syarat":"terima_amplop","npc":"Pak Bagas","teks":"\"Ingat dulu, Dik? Sekarang bantu kami: proyek jalan itu kontraktornya teman kami, ya.\"","opsi":[
+{"t":"Menuruti permintaannya","e":{"H":-3,"K":-2,"R":-2},"u":"Utang budi dari politik uang menyeretmu ke penyimpangan yang lebih besar."},
+{"t":"Menolak dan mengakui kesalahan masa lalu","e":{"H":2,"R":1},"u":"Berhenti menuruti adalah awal memulihkan keadaan."},
+{"t":"Melapor ke pihak berwenang beserta pengakuanmu","e":{"H":3,"K":1},"u":"Berani mengakui kesalahan dan melapor memulihkan kepercayaan pada hukum."}]},
+{"id":11,"babak":3,"npc":"Warga di lingkunganmu","teks":"Jalan yang baru dibangun rusak dalam sebulan, dan penggunaan dananya tampak tidak wajar.","opsi":[
+{"t":"Melapor lewat jalur resmi dengan bukti yang jelas","e":{"H":2,"R":2,"K":1},"u":"Pengawasan warga yang berbasis bukti memperkuat negara hukum."},
+{"t":"Diam, takut dipersulit","e":{"H":-1,"K":-1},"u":"Ketika warga diam, penyimpangan mudah berulang."},
+{"t":"Menyebarkan tuduhan tanpa bukti","e":{"R":-1,"H":-1,"P":-1},"u":"Tuduhan tanpa bukti bisa menyeret orang yang tidak bersalah."}]},
+{"id":12,"babak":3,"npc":"Bu Wulan, jurnalis lokal","teks":"Bu Wulan menulis dugaan penyimpangan itu, lalu ditekan agar menghapus beritanya.","opsi":[
+{"t":"Menyuarakan dukungan agar kebebasan pers dihormati","e":{"K":2,"H":2,"R":1},"u":"Pers yang bebas membantu warga mengawasi kekuasaan."},
+{"t":"Diam saja","e":{"K":-1},"u":"Tanpa dukungan warga, suara kritis mudah dibungkam."},
+{"t":"Ikut menekan agar beritanya dihapus","e":{"K":-2,"H":-2,"R":-2},"u":"Membungkam kritik menutup jalan koreksi bagi pemerintah."}]},
+{"id":13,"babak":3,"npc":"Ketua RW","teks":"Musyawarah warga membahas kebijakan yang hanya menguntungkan satu kelompok.","opsi":[
+{"t":"Menyuarakan keberatan dan mengusulkan jalan tengah","e":{"K":2,"P":1},"u":"Musyawarah (sila 4) hidup jika warga berani berpendapat."},
+{"t":"Ikut arus","e":{"K":-1},"u":"Mengikuti arus membuat kelompok lemah tidak terwakili."},
+{"t":"Tidak hadir","e":{"K":-1,"R":-1},"u":"Keputusan akhirnya diambil tanpa suaramu."}]},
+{"id":14,"babak":3,"npc":"Pengurus Partai Karya (fiktif)","teks":"Kamu ditawari mencalonkan diri, dengan syarat \"mau diajak kompromi\" pada kepentingan kelompok tertentu.","opsi":[
+{"t":"Tolak, dan tetap mengabdi dengan cara lain","e":{"H":1,"R":1},"u":"Menjaga prinsip, tetapi kesempatan mengubah dari dalam hilang."},
+{"t":"Terima, dengan syarat transparansi dan akuntabilitas","e":{"H":1,"R":1,"K":1,"P":1},"u":"Ikut berkuasa sambil menjaga aturan adalah jalan yang sulit, tetapi berdampak."},
+{"t":"Terima tanpa syarat","e":{"H":-2,"K":-2,"R":-1},"u":"Kompromi tanpa batas mengubah pemimpin menjadi alat kepentingan."}]}],
+"ending":{
+"emas":{"judul":"Indonesia yang Dewasa","teks":"Tahun 2045. Pilihan-pilihan warga seperti kamu membuat demokrasi tumbuh sehat: rukun, adil, dipercaya, dan taat hukum."},
+"rukun":{"judul":"Rukun tapi Rapuh","teks":"Warga hidup rukun, tetapi aturan sering dilanggar. Persatuan tanpa hukum yang tegas mudah retak."},
+"tegak":{"judul":"Tegak tapi Terbelah","teks":"Hukum berjalan, tetapi warga saling curiga. Aturan yang kuat belum cukup tanpa persatuan."},
+"hilang":{"judul":"Kepercayaan yang Hilang","teks":"Politik uang, hoaks, dan diamnya warga meninggalkan negara yang tidak lagi dipercaya rakyatnya."},
+"tengah":{"judul":"Jalan yang Belum Selesai","teks":"Ada kemajuan dan ada kemunduran. Masa depan masih bisa berubah oleh pilihanmu berikutnya."}}}
