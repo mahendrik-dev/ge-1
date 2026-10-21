@@ -1,0 +1,26 @@
+:root{--bg:#eef2f6;--ink:#14213d;--red:#c1121f;--teal:#087f7f;--card:#fff;--mute:#5b6577}
+@media(prefers-color-scheme:dark){:root{--bg:#10192b;--ink:#e8edf5;--card:#1a2640;--mute:#9aa7bd;--teal:#3bc4c0;--red:#ff5d69}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:1.05rem/1.55 "Atkinson Hyperlegible",system-ui,sans-serif}
+#app{max-width:40rem;margin:0 auto;padding:1rem}
+.card{background:var(--card);border-radius:.75rem;padding:1.25rem;margin-top:1rem;border-left:.4rem solid var(--red)}
+h1{font-size:1.9rem;line-height:1.15;margin:0 0 .5rem}
+h2{font-size:1.25rem;margin:0 0 .5rem}
+.meta,.note{color:var(--mute);font-size:.9rem;margin:0 0 .5rem}
+.npc{font-weight:700;margin:.75rem 0 .25rem}
+.err{color:var(--red);min-height:1.5em}
+label{display:block;margin:.75rem 0;font-weight:700}
+input{display:block;width:100%;margin-top:.25rem;padding:.6rem;font:inherit;border:2px solid var(--mute);border-radius:.4rem;background:var(--bg);color:var(--ink)}
+button{display:block;width:100%;margin-top:.6rem;padding:.75rem 1rem;font:inherit;text-align:left;cursor:pointer;color:var(--ink);background:var(--bg);border:2px solid var(--ink);border-radius:.4rem}
+button:hover{background:var(--ink);color:var(--bg)}
+button.main{background:var(--red);border-color:var(--red);color:#fff;text-align:center;font-weight:700}
+.row{display:flex;gap:.6rem}.row button{text-align:center}
+:focus-visible{outline:3px solid var(--teal);outline-offset:2px}
+.meters{position:sticky;top:0;z-index:2;display:grid;grid-template-columns:repeat(4,1fr);gap:.6rem;background:var(--bg);padding:.6rem 0;border-bottom:2px solid var(--ink)}
+.m span{font-size:.8rem;font-weight:700}
+.bar{height:.7rem;background:var(--card);border:1px solid var(--mute);border-radius:1rem;overflow:hidden}
+.bar i{display:block;height:100%;background:var(--teal);transition:width .5s}
+.m.low .bar i{background:var(--red)}
+ol.rk{padding-left:1.2rem}ol.rk li{margin:.6rem 0}
+.fb{border-left:.4rem solid var(--teal)}
+@media(prefers-reduced-motion:reduce){.bar i{transition:none}}
