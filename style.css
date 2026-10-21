@@ -24,3 +24,7 @@ button.main{background:var(--red);border-color:var(--red);color:#fff;text-align:
 ol.rk{padding-left:1.2rem}ol.rk li{margin:.6rem 0}
 .fb{border-left:.4rem solid var(--teal)}
 @media(prefers-reduced-motion:reduce){.bar i{transition:none}}
+canvas{display:block;width:100%;height:auto;margin-top:.6rem;border-radius:.75rem;background:#8ecdf2}
+#mt{position:sticky;top:0;z-index:2}#mt .meters{position:static}
+.ctl{display:flex;gap:.6rem}.ctl button{width:auto;text-align:center;touch-action:none;user-select:none;-webkit-user-select:none}
+.ctl #bl,.ctl #br{flex:0 0 4.5rem}.ctl #sk{flex:1;touch-action:auto}
